@@ -1,0 +1,20 @@
+#clock {
+    stroke: black;
+    stroke-linecap: round;
+    fill: #f8feff;
+}
+
+#clock .face {stroke-width: 3;}
+#clock .hourhand {stroke-width: 3;}
+#clock .minutehand {stroke-width: 2;}
+#clock .secondhand {stroke-width: 1;}
+#clock .ticks {stroke-width: 2;}
+
+#clock .numbers {
+    font-family: sans-serif;
+    font-size: 10;
+    font-weight: bold;
+    text-anchor: middle;
+    stroke: none;
+    fill: black;
+}
